@@ -1,0 +1,86 @@
+.container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .notification {
+    position: fixed;
+    margin-bottom: 50px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(188, 185, 185, 1);
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #f5c6cb;
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  .btn {
+    padding: 3px 8px;
+    background-color: rgba(23, 23, 23, 0.7);
+    font-weight: 600;
+    border: 1px solid rgba(188, 185, 185, 0.5);
+    color: white;
+    border-radius: 3px;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 13px 31px 13px 31px;
+    font-size: 24px;
+    border-radius: 3px;
+    border: none;
+    font-weight: 500;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    cursor: pointer;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 15px 6px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    
+
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.btn2 {
+    padding: 5px 38px 6px 38px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.main {
+    background-image: url("images/bg.jpg");
+    height: 100vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1700px, 100vw);
+
+}
+
+#email {
+    width: 360px;
+    height: 50px;
+}
