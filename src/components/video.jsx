@@ -12,30 +12,30 @@ const App = () => {
     <div className="column">
       <div className="div2" onClick={handleShowVideo}>
         Chapter 1
-        <img className="imagen" width="35" src="https://exquisite-centaur-acdf6d.netlify.app/play.png" onClick={handleShowVideo} />
+        <img className="imagen" width="35" src="https://seriesfreehd.netlify.app/play.png" onClick={handleShowVideo} />
       </div>
       <div className="div3" onClick={handleShowVideo}>
         Chapter 2
-        <img className="imagen" width="35" src="https://exquisite-centaur-acdf6d.netlify.app/play.png" onClick={handleShowVideo} />
+        <img className="imagen" width="35" src="https://seriesfreehd.netlify.app/play.png" onClick={handleShowVideo} />
       </div>
       <div className="div4" onClick={handleShowVideo}>
         Chapter 3
-        <img className="imagen" width="35" src="https://exquisite-centaur-acdf6d.netlify.app/play.png" onClick={handleShowVideo} />
+        <img className="imagen" width="35" src="https://seriesfreehd.netlify.app/play.png" onClick={handleShowVideo} />
       </div>
       <div className="div5" onClick={handleShowVideo}>
         Chapter 4
-        <img className="imagen" width="35" src="https://exquisite-centaur-acdf6d.netlify.app/play.png" onClick={handleShowVideo} />
+        <img className="imagen" width="35" src="https://seriesfreehd.netlify.app/play.png" onClick={handleShowVideo} />
       </div>
       <div className="div6" onClick={handleShowVideo}>
         Chapter 5
-        <img className="imagen" width="35" src="https://exquisite-centaur-acdf6d.netlify.app/play.png" onClick={handleShowVideo} />
+        <img className="imagen" width="35" src="https://seriesfreehd.netlify.app/play.png" onClick={handleShowVideo} />
       </div>
 
       {showVideo && (
         <div className="video-container">
           <video controls>
             
-            <source src="https://exquisite-centaur-acdf6d.netlify.app/video.mov" type="video/mp4" />
+            <source src="https://seriesfreehd.netlify.app/video.mov" type="video/mp4" />
             Tu navegador no soporta el elemento de video.
           </video>
         </div>
