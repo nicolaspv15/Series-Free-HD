@@ -10,30 +10,31 @@ const App = () => {
 
   return (
     <div className="column">
-      <div className="div2">
+      <div className="div2" onClick={handleShowVideo}>
         Chapter 1
-        <img className="imagen" width="35" src="./public/play.png" alt="Play" onClick={handleShowVideo} />
+        <img className="imagen" width="35" src="./public/play.png" onClick={handleShowVideo} />
       </div>
-      <div className="div3">
+      <div className="div3" onClick={handleShowVideo}>
         Chapter 2
-        <img className="imagen" width="35" src="./public/play.png" alt="Play" onClick={handleShowVideo} />
+        <img className="imagen" width="35" src="./public/play.png" onClick={handleShowVideo} />
       </div>
-      <div className="div4">
+      <div className="div4" onClick={handleShowVideo}>
         Chapter 3
-        <img className="imagen" width="35" src="./public/play.png" alt="Play" onClick={handleShowVideo} />
+        <img className="imagen" width="35" src="./public/play.png" onClick={handleShowVideo} />
       </div>
-      <div className="div5">
+      <div className="div5" onClick={handleShowVideo}>
         Chapter 4
-        <img className="imagen" width="35" src="./public/play.png" alt="Play" onClick={handleShowVideo} />
+        <img className="imagen" width="35" src="./public/play.png" onClick={handleShowVideo} />
       </div>
-      <div className="div6">
+      <div className="div6" onClick={handleShowVideo}>
         Chapter 5
-        <img className="imagen" width="35" src="./public/play.png" alt="Play" onClick={handleShowVideo} />
+        <img className="imagen" width="35" src="./public/play.png" onClick={handleShowVideo} />
       </div>
 
       {showVideo && (
         <div className="video-container">
           <video controls>
+            
             <source src="./public/video.mov" type="video/mp4" />
             Tu navegador no soporta el elemento de video.
           </video>

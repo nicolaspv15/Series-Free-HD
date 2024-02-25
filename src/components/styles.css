@@ -59,9 +59,11 @@
 
 .div1 {
     color: white;
+    cursor: pointer;
 }
 
 .div2, .div3, .div4, .div5, .div6 {
+  cursor: pointer;
     display: flex;
     margin: 5 px;
   background-color: rgba(188, 185, 185, 0.5);;
